@@ -1,5 +1,5 @@
 {% set name = "birdsong-recognition-dataset" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/birdsong-recognition-dataset-{{ version }}.tar.gz
-  sha256: 20e3992630875c48bed972214853537eb8658acb0cbdd7745ee284f6f63600c3
+  sha256: 7d15bccb7cb5e767f1f4a5b308c6b568ffb3e5a6822b4831f0cbc46873d0f321
 
 build:
   number: 0
