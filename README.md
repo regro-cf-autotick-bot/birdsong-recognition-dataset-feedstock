@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/birdsong-recogn
 
 Summary: Functions for working with this data repository: https://figshare.com/articles/BirdsongRecognition/3470165
 
-Development: https://github.com/NickleDave/koumura
+Development: https://github.com/NickleDave/birdsong-recognition-dataset
 
 Current build status
 ====================

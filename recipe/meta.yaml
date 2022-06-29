@@ -11,18 +11,18 @@ source:
   sha256: 850fd0f9b1fdbcb80e430af1e96cad065028e6657d6b6d440a7b20b6ae495da6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - flit-core
   run:
     - numpy >=1.18.1
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
@@ -35,7 +35,7 @@ test:
 about:
   home: https://pypi.org/project/birdsong-recognition-dataset/
   summary: 'Functions for working with this data repository: https://figshare.com/articles/BirdsongRecognition/3470165'
-  dev_url: https://github.com/NickleDave/koumura
+  dev_url: https://github.com/NickleDave/birdsong-recognition-dataset
   license: BSD-3-Clause
   license_file: LICENSE
 
