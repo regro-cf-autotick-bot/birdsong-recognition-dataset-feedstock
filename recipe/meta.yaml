@@ -35,7 +35,7 @@ test:
 about:
   home: https://pypi.org/project/birdsong-recognition-dataset/
   summary: 'Functions for working with this data repository: https://figshare.com/articles/BirdsongRecognition/3470165'
-  dev_url: https://github.com/NickleDave/koumura
+  dev_url: https://github.com/NickleDave/birdsong-recognition-dataset
   license: BSD-3-Clause
   license_file: LICENSE
 
